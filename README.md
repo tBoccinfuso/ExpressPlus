@@ -8,5 +8,5 @@ This version is updated with the newest version of Express. This way if someone 
 *To use:*
 
 1. Clone Repo
-2. In terminal/Cmd: **npm install**
+2. In terminal/Cmd: **npm install** followed by **npm start**
 3. Start coding!
