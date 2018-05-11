@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to an #{title}!
+  div
+    h1= title
+    p Welcome to an #{title}. This title is being rendered with pug templates!
+
+  div(id='es6Demo')
+
+  
+  script(src="js/build/main.bundle.js")
+  
+
