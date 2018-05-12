@@ -1,5 +1,5 @@
 # ExpressPlus
-This is a package that builds off the Node.js Express Template.
+This is a package that builds off the Node.js Express Template Generator CLI.
 
 ---
 
