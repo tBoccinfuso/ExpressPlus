@@ -1,4 +1,4 @@
-extends layout
+extends shared/layout.pug
 
 block content
   div
@@ -7,6 +7,9 @@ block content
 
   div(id='es6Demo')
 
+  div
+    button(type='button' id='btnLinks') Links 
+    button(type='button' id='btnHello') Hello World
   
   script(src="js/build/main.bundle.js")
   
