@@ -16,12 +16,6 @@ if (document.getElementById('btnLinks'))
   });
 
 // Navigate to /hello 
-if (document.getElementById('btnHello'))
-  document.getElementById('btnHello').addEventListener('click', () =>{
-    location.href = location.href + "hello"
-  });
-
-// Navigate to /hello 
 if (document.getElementById('btnHome'))
   document.getElementById('btnHome').addEventListener('click', () =>{
     const loc = location.href.lastIndexOf('/');
