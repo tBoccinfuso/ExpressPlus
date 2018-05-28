@@ -1,0 +1,3 @@
+If you do not have sass installed then do the following in your terminal. If you do, proceed to step 2.
+  1. npm i-g sass
+  2. sass --watch public/sass/style.sass:public/css/style.css

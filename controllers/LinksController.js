@@ -1,6 +1,9 @@
+var express = require('express');
+var router = express.Router();
+
 module.exports = {
-   /* GET home page. */
-  links : function(req, res, next){
-    res.render('links/index', { title: 'Links' });
-  }
+   /* GET links page. */
+   links : router.get("/links", function (req, res){
+    res.render('./links/index', { title: 'Links' });
+  })
 }
